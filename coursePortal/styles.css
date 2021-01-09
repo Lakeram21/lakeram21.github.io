@@ -1,0 +1,44 @@
+body {
+  max-width: 940px;
+  margin: 0 auto;
+  background-color: white;
+  
+}
+
+.header, .footer{
+
+    background-color: brown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.copyright{
+    text-align: center;
+    margin-top: 10px;
+}
+h1{
+    color:white;
+    font-size: 3em;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header img{
+    float:right;
+    margin-right: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    padding: 0px;
+    box-shadow: 5px 5px 5px #999;
+    margin-right:10px;
+}
+hr{
+    margin-top: -10px;
+}
+h2{
+    font-size: 2.5em;
+}
+#datemodified{
+text-align: center;
+margin-top: -10px;
+}
