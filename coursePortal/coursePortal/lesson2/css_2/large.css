@@ -1,0 +1,66 @@
+@media screen and (min-width: 1000px) {
+
+    .main_grid{
+
+    display:grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
+   /* grid-template-rows: 1fr 1fr 1fr;**/
+    grid-gap:1em;
+
+}
+.white_space{
+grid-column:1/2;
+grid-row: 1/2;
+
+}
+.repetition{
+grid-column:2/3;
+grid-row: 1/2;
+}
+
+.fitts{
+grid-column:3/4;
+grid-row: 1/2;
+
+}
+/*The information for the design*/
+.white_space_info{
+grid-column:1/2; 
+grid-row: 2/3;
+}
+
+
+.repetition_info{
+  grid-column:2/3;
+  grid-row: 2/3; 
+   
+}
+
+
+
+.fitts_info{
+grid-column:3/4;
+grid-row: 2/3;
+
+}
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 1.7rem;
+}
+
+
+h1,h2{
+
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+
+}
+
+p{
+  font-size: 1rem;
+ 
+}
+}

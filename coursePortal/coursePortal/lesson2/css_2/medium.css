@@ -1,0 +1,69 @@
+@media screen and (min-width: 700px) {
+
+    .main_grid{
+
+    display:grid;
+
+    grid-template-columns: 1fr 1fr;
+    
+   /* grid-template-rows: 1fr 1fr 1fr;**/
+    grid-gap:1em;
+
+}
+
+h1{
+    font-size: 2rem;
+}
+h2{
+    font-size: 1rem;
+}
+
+.white_space{
+grid-column:1/2;
+grid-row: 1/2;
+
+}
+.white_space_info{
+grid-column:1/2; 
+grid-row: 2/3;
+}
+
+
+.repetition{
+grid-column:2/3;
+grid-row: 1/2;
+}
+.repetition_info{
+  grid-column:2/3;
+  grid-row: 2/3; 
+   
+}
+
+
+
+.fitts{
+
+grid-row: 3/4;
+grid-column: 1/2;
+}
+/*The information for the design*/
+
+
+
+.fitts_info{
+grid-column: 1/2;
+grid-row: 4/6;
+
+}
+
+
+p{
+  font-size: .8rem;
+ 
+}
+
+}
+
+
+
+
