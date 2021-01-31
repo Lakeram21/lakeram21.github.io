@@ -1,18 +1,18 @@
+
+
 function toggleMenu() {
     document.getElementsByClassName("navigation")[0].classList.toggle("responsive")
 }
 
 
+var month = ["January", "Febuary", "March", "April", "May", "June", "July", "August",
+    "September", "October", "Noveber", "December"]
 
-const { func } = require("prop-types");
-
-var string = document.lastModified;
-let year = new Date
-year = year.getFullYear()
-document.getElementById('datemodified').textContent = "Last Updated: " + string
-document.getElementById("currentYear").textContent = year
+var d = new Date();
+var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
 
+document.getElementById("datemodified").innerHTML = days[d.getDay()] + ", " + d.getDate() + ' ' + month[d.getMonth()] + " " + d.getUTCFullYear();
 
 
 
