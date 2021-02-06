@@ -1,0 +1,75 @@
+@media only screen and (min-width: 700px) {
+
+.navigation{
+
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.navigation a{
+
+    padding: 0.75rem;
+    
+
+}
+.navigation li{
+    display: block;
+    
+    flex: 1 1 auto;
+}
+
+img{
+    width: 100%;
+}
+.navigation li:first-child{
+    display: none;
+}
+
+
+
+.header_logo{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*the body*/
+.forecastTable{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.contactdiv{
+ 
+   grid-template-columns: 1fr 1fr;
+   
+}
+.forcast h2{
+    text-align: center;
+    color:brown;
+}
+
+.articlediv img{
+    float:right;
+}
+.contactInfo{
+margin-left: 100px;
+
+}
+
+.contactdiv img{
+   width: 100%;
+}
+.contactdiv{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   
+}
+.herodiv img{
+    width: 100%;
+}
+
+}
+
