@@ -12,8 +12,8 @@ body{
     margin-top: -10px;
 }
 
-a:visited {
-  color: pink;
+nav a:visited {
+  background-color: tomato;
 }
 
 .header_logo{
@@ -47,7 +47,7 @@ nav ul li a{
 
 }
 nav ul li a:hover{
-    background-color:green;
+    background-color:teal;
     color:brown;
 }
 
@@ -205,6 +205,6 @@ main h1{
 }
 
 .herodiv img{
-    width: 400px;
+    width:100%;
 }
 
