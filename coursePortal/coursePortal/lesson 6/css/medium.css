@@ -75,6 +75,23 @@ margin-left: 100px;
 .summary{
     font-size: 1em;
 }
+table{
+    width: fit-content;
+}
 
+
+.herodiv{
+    position: relative;
+
+}
+
+.summary{
+    position: absolute;
+    top:20px;
+    left: 40px;
+    opacity: 0.5;
+    box-shadow:5px 5px 5px#96E6B3;
+    
+}
 }
 

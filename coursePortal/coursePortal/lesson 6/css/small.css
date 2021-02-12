@@ -85,24 +85,25 @@ main{
 
     
 }
-.herodiv{
-    position: relative;
 
-}
 
 .summary{
-    position: absolute;
-    top:20px;
-    left: 40px;
+    text-align: center;
     background-color: #96E6B3;
     padding: 10px;
-    opacity: 0.5;
-    box-shadow:5px 5px 5px#96E6B3;
+    font-size: medium;
     
+}
+td img{
+    width: 100%;
+}
+table{
+    width:100%;
 }
 
 .forecastTable{
     color: white;
+   
 }
 
 td, th {
