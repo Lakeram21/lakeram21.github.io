@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>LazyLoad</title>
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/lazy.css">
+
+    <meta name="Lazy load demo"
+        content="The purpose of this page is to show the advantage of lazy loading and intesection observer">
+
+</head>
+
+<body>
+    <h1>Progressive loading-Images</h1>
+
+    <picture><img src="image/image1.jpg" data-src="image/image1.jpg" alt="first image"></picture>
+    <picture><img src="image/image1.jpg" data-src="image/image2.jpg" alt="second image"></picture>
+    <picture><img src="image/image1.jpg" data-src="image/image5.jpg" alt="third image"></picture>
+    <picture><img src="image/image1.jpg" data-src="image/image6.jpg" alt="forth image"></picture>
+    <picture><img src="image/image1.jpg" data-src="image/image5.jpg" alt="fifth image"></picture>
+    <picture><img src="image/image1.jpg" data-src="image/image1.jpg" alt="sixthimage"></picture>
+
+
+    <script src="lazyjs/lazyjs.js"></script>
+</body>
+
+</html>
