@@ -41,7 +41,7 @@
             <ul class="navigation">
                 <li><a class="ham_menu" href=# onclick="toggleMenu()"> &#9776;Menu</a></li>
                 <li><a href="#">Home</a></li>
-                <li><a class="active" href="preston_5.html">Preston</a></li>
+                <li><a class="current" href="preston_6.html">Preston</a></li>
                 <li><a href="#">Soda Springs</a></li>
                 <li><a href="#">Fish Haven</a></li>
                 <li><a href="#">Storm Center</a></li>
@@ -56,7 +56,9 @@
 
         <div class="herodiv">
             <picture>
-                <img class="hero_image" src="image/pexels-lisa-fotios-1107717(2).jpg" alt="hero">
+                <source srcset="image/mediumhero.jpg" media="(min-width: 500px) and (max-width:800px)">
+                <source srcset="image/largehero.jpg" media="( min-width:800px)">
+                <img src="image/smallhero.jpg" alt="hero">
             </picture>
 
 
@@ -64,10 +66,10 @@
             <section class="summary">
                 <h2>Weather Summary</h2>
                 <p>Currently: <span id="current">Sunny</span></p>
-                <p>High: <span id="hightemp">76 &#8457;</span></p>
-                <p>Wind Chill: <span id="wind">&#8457;</span></p>
+                <p>High: <span id="hightemp">50 &#8457;</span></p>
+                <p>Wind Chill: <span id="windchill">&#8457;</span></p>
                 <p>Humidity: <span id="Humid">69 &#8457;</span></p>
-                <p>Wind Speed: <span id="windspeed">5 mph</span></p>
+                <p>Wind Speed: <span id="windspeed">3 mph</span></p>
             </section>
         </div>
 
@@ -83,11 +85,11 @@
                         <th>Sat</th>
                     </tr>
                     <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
+                        <td><img src="image/weather_icon.png" alt=""></td>
+                        <td><img src="image/weather_icon.png" alt=""></td>
+                        <td><img src="image/weather_icon.png" alt=""></td>
+                        <td><img src="image/weather_icon.png" alt=""></td>
+                        <td><img src="image/weather_icon.png" alt=""></td>
                     </tr>
                     <tr>
                         <td>89&#8457;</td>
@@ -142,34 +144,41 @@
         </div>
 
         <div class="articlediv">
-            <img class="articleImg" src="image/pexels-kevin-bidwell-5523688(3).jpg" alt="article">
+            <picture class="artimg">
+                <img class="articleImg" src="image/pexels-kevin-bidwell-5523688(3).jpg" alt="article">
+            </picture>
 
-            <h1>Daily Preston News</h1>
-            <p>Lorem Ipsum is simply dummy text of the printing and
-                typesetting industry. Lorem Ipsum has been the industry's
-                standard dummy text ever since the 1500s, when an unknown
-                printer took a galley of type and scrambled it to make a
-                type specimen book. It has survived not only five centuries,
-                but also the leap into electronic typesetting,
-                remaining essentially unchanged.Lorem Ipsum is simply dummy text of the printing and
-                typesetting industry. Lorem Ipsum has been the industry's
-                standard dummy text ever since the 1500s, when an unknown
-                printer took a galley of type and scrambled it to make a
-                type specimen book. It has survived not only five centuries,
-                but also the leap into electronic typesetting,
-                remaining essentially unchanged.Lorem Ipsum is simply dummy text of the printing and
-                typesetting industry. Lorem Ipsum has been the industry's
-                standard dummy text ever since the 1500s, when an unknown
-                printer took a galley of type and scrambled it to make a
-                type specimen book. It has survived not only five centuries,
-                but also the leap into electronic typesetting,
-                remaining essentially unchanged.Lorem Ipsum is simply dummy text of the printing and
-                typesetting industry. Lorem Ipsum has been the industry's
-                standard dummy text ever since the 1500s, when an unknown
-                printer took a galley of type and scrambled it to make a
-                type specimen book. It has survived not only five centuries,
-                but also the leap into electronic typesetting,
-                remaining essentially unchanged.</p>
+            <div>
+                <h1>Daily Preston News</h1>
+                <p>Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s, when an unknown
+                    printer took a galley of type and scrambled it to make a
+                    type specimen book. It has survived not only five centuries,
+                    but also the leap into electronic typesetting,
+                    remaining essentially unchanged.Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s, when an unknown
+                    printer took a galley of type and scrambled it to make a
+                    type specimen book. It has survived not only five centuries,
+                    but also the leap into electronic typesetting,
+                    remaining essentially unchanged.Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s, when an unknown
+                    printer took a galley of type and scrambled it to make a
+                    type specimen book. It has survived not only five centuries,
+                    but also the leap into electronic typesetting,
+                    remaining essentially unchanged.Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s, when an unknown
+                    printer took a galley of type and scrambled it to make a
+                    type specimen book. It has survived not only five centuries,
+                    but also the leap into electronic typesetting,
+                    remaining essentially unchanged.</p>
+
+
+            </div>
+
 
 
         </div>
@@ -212,7 +221,7 @@
 
     </footer>
     <script src="js/preston2.js"></script>
-
+    <script src="js/windchill.js"></script>
 </body>
 
 </html>

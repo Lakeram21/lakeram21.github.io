@@ -85,24 +85,30 @@ main{
 
     
 }
-.herodiv{
-    position: relative;
 
+.navigation .current{
+    background-color:greenyellow;
 }
 
+
+
 .summary{
-    position: absolute;
-    top:20px;
-    left: 40px;
+    text-align: center;
     background-color: #96E6B3;
     padding: 10px;
-    opacity: 0.5;
-    box-shadow:5px 5px 5px#96E6B3;
+    font-size: medium;
     
+}
+td img{
+    width: 100%;
+}
+table{
+    width:100%;
 }
 
 .forecastTable{
     color: white;
+   
 }
 
 td, th {
@@ -119,18 +125,25 @@ th{
 .articlediv{
     line-height: 1.5;
     color:white;
-}
-
-
-.articlediv img{
     
-width: 300px;
-box-shadow:5px 5px 5px teal;
-
-margin-top:100px;
+    
+}
+.summary{
+    font-size: .6em;
 }
 
 
+
+.articlediv img{  
+width: 100%;
+box-shadow:5px 5px 5px teal;
+}
+
+
+.artimg{
+    float: right;
+    margin-top: 80px;
+}
 
 
 .contactInfo{
@@ -204,7 +217,4 @@ main h1{
 .herodiv img{
     width:100%;
 }
-/*make the user know which page they are on */
- nav ul .active{
-    background-color: greenyellow;
-}
+
