@@ -7,13 +7,17 @@
     grid-gap: 20px;
 }
 
-picture:hover{
+figure:hover{
     box-shadow: 5px 5px 5px 5px rgb(84, 133, 79);
 
 }
 
-picture{
-    padding: 0px;
+figure{
+    padding: -5px;
+}
+
+figcaption{
+ font-size: 10px;
 }
 
 }
