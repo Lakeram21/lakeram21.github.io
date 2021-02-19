@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <meta name="Preston 2"
+        content="This is a subpage for my Weather app which display one specific town, Preston Idaho. This project is part of my WDD Class at BYUI">
+
+
+</head>
+
+<body>
+    <header>
+        <div id="header">
+            <div class="header_logo">
+                <picture> <img src="image/weather.png" alt="logo img">
+                </picture>
+                <section>
+                    <h1>Weather Watch</h1>
+                    <p>There is No such Thing as Bad Weather</p>
+                </section>
+
+            </div>
+
+        </div>
+
+
+        <nav>
+            <ul class="navigation">
+                <li><a class="ham_menu" href=# onclick="toggleMenu()"> &#9776;Menu</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a
+                        href="https://lakeram21.github.io/coursePortal/coursePortal/lesson%206%20copy/preston_5.html">Preston</a>
+                </li>
+                <li><a href=" #">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="#">Storm Center</a></li>
+                <li><a class="current" href="gallery-7.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Weather Gallery</h1>
+
+        <section class="gallery_image">
+            <picture>
+                <img src="image/img4.jpg" data-src="image/img1.jpg" alt="firstimg">
+                <figcaption class="imgdescription">Hot Chocolate on a snowy day</figcaption>
+            </picture>
+
+            <picture>
+                <img src="image/img4.jpg" data-src="image/img2.jpg" alt="firstimg">
+                <figcaption class="imgdescription">Couple Sheltering from snow</figcaption>
+            </picture>
+
+            <picture>
+                <img src="image/img4.jpg" data-src="image/img3.jpg" alt="firstimg">
+                <figcaption class="imgdescription">Majestic Lightning </figcaption>
+            </picture>
+
+            <picture>
+                <img src="image/img4.jpg" data-src="image/img4.jpg" alt="firstimg">
+                <figcaption class="imgdescription">Foggy Mountain</figcaption>
+            </picture>
+
+            <picture>
+                <img src="image/img4.jpg" data-src="image/img5.jpg" alt="firstimg">
+                <figcaption class="imgdescription">Rays bursting through the clouds</figcaption>
+            </picture>
+
+            <picture>
+                <img src="image/img4.jpg" data-src="image/img6.jpg" alt="firstimg">
+                <figcaption class="imgdescription">Sunny farm land</figcaption>
+            </picture>
+
+            <picture>
+                <img src="image/img4.jpg" data-src="image/img7.jpg" alt="firstimg">
+                <figcaption class="imgdescription">Rain is upon us</figcaption>
+            </picture>
+
+            <picture>
+                <img src="image/img4.jpg" data-src="image/img8.jpg" alt="firstimg">
+                <figcaption class="imgdescription">Bright, beautiful lake</figcaption>
+            </picture>
+
+            <picture>
+                <img src="image/img4.jpg" data-src="image/img9.jpg" alt="firstimg">
+                <figcaption class="imgdescription">Thunder and lightning</figcaption>
+            </picture>
+
+            <picture>>
+                <img src="image/img4.jpg" data-src="image/img10.jpg" alt="firstimg">
+                <figcaption class="imgdescription">Frozen Lighthouse</figcaption>
+            </picture>
+
+            <picture>>
+                <img src="image/img4.jpg" data-src="image/img11.jpg" alt="firstimg">
+                <figcaption class="imgdescription">Cold winter path</figcaption>
+            </picture>
+
+            <picture>>
+                <img src="image/img4.jpg" data-src="image/img12.jpg" alt="firstimg">
+                <figcaption class="imgdescription">Cool Afternoon in the country side</figcaption>
+            </picture>
+
+
+        </section>
+
+
+    </main>
+
+    <footer>
+        <section>
+            <p class="copyright"> © <span id="currentYear"></span> |Lakeram Narine| Guyana <a
+                    href="https://www.byui.edu/online">BYUI Online
+                    Learning</a></p>
+            <p id='datemodified'></p>
+        </section>
+
+    </footer>
+    <script src="galleryjs/date.js"></script>
+    <script src="galleryjs/windchill.js"></script>
+    <script src="galleryjs/gallery.js"></script>
+</body>
+
+</html>

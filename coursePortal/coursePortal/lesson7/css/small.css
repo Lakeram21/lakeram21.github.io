@@ -1,0 +1,237 @@
+
+body{
+    font-family: 'Yusei Magic', sans-serif;
+    
+    background-color: #817F75;
+}
+/* chnage on pancake day*/
+#pancake{
+    text-align: center;
+    background-color: tomato;
+    padding: 10px;
+    margin-top: -10px;
+}
+
+nav a:visited {
+  background-color: tomato;
+}
+
+.header_logo{
+    display:grid;
+    text-align: center;
+    
+}
+header img{
+    width: 95px;
+}
+/*navigation*/
+nav{
+    margin: 0 auto;
+    background-color: teal;
+    
+}
+nav ul {
+
+    list-style-type: none;  
+    padding: 0; 
+}
+
+nav ul li a{
+    display: block;
+    font-size:medium;
+    text-decoration: none;
+    font-weight: 300;
+    text-align:center;
+    padding:2px;
+    color: white;
+
+}
+nav ul li a:hover{
+    background-color:teal;
+    color:brown;
+}
+
+
+#datemodified{
+    text-align: center;
+}
+
+
+.navigation li{
+    display: none;
+}
+.navigation li:first-child{
+    display: block;
+    text-align: center;
+}
+
+/*this is for the toggle of the hamberger menu*/
+.responsive li{
+    display:block;
+}
+
+
+/* this is for main/body*/
+
+main{
+    max-width: 940px;
+    margin: 0 auto;
+    display: block;
+    
+    grid-gap: 20px;
+    background-color: #2E294E;
+    padding: 10px;
+   
+
+    
+}
+
+.navigation .current{
+    background-color:greenyellow;
+}
+
+
+
+.summary{
+    text-align: center;
+    background-color: #96E6B3;
+    padding: 10px;
+    font-size: medium;
+    
+}
+td img{
+    width: 100%;
+}
+table{
+    width:100%;
+}
+
+.forecastTable{
+    color: white;
+   
+}
+
+td, th {
+  border: 1px solid black;
+  text-align: left;
+  padding: 18px;
+
+}
+th{
+    background-color: #96E6B3;
+    color:black;
+}
+
+.articlediv{
+    line-height: 1.5;
+    color:white;
+    
+    
+}
+.summary{
+    font-size: .6em;
+}
+
+
+
+.articlediv img{  
+width: 100%;
+box-shadow:5px 5px 5px teal;
+}
+
+
+.artimg{
+    float: right;
+    margin-top: 80px;
+}
+
+
+.contactInfo{
+ display: block;
+ 
+
+ color: brown;
+}
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-whatsapp {
+  background: green;
+  color: white;
+}
+.fa-google {
+  background: red;
+  color: white;
+}
+.fa-twitter {
+  background:#3B5998;
+  color: white;
+}
+
+
+.socialImage{
+    display: flex;
+    
+}
+
+footer{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+
+}
+header, footer{
+    background-color: #96E6B3;
+
+}
+ 
+header h1{
+    color: brown;
+    font-style: italic;
+font-size: 2rem;
+}
+header{
+    color:white;
+}
+main h1{
+    color:brown;
+    text-align: center;
+}
+
+.contactdiv img{
+    width: 100%;
+}
+
+.herodiv img{
+    width:100%;
+}
+
+/* gallery stuff*/
+.gallery_image img{
+    width:100%;
+}
+
+.gallery_image{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+}
+.imgdescription{
+    background-color: rgb(206, 199, 199);
+    margin: 0px;
+    padding: 5px;
+}
+
+
