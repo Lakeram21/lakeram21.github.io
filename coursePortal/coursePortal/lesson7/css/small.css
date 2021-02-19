@@ -235,7 +235,7 @@ main h1{
 }
 
 figure img[data-src] {
-  filter: blur(0.2em);
+  filter: blur(0.5em);
 }
 
 figure img {
