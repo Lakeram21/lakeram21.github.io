@@ -226,7 +226,7 @@ main h1{
 .gallery_image{
     display: grid;
     grid-template-columns: 1fr;
-    grid-gap: 10px;
+    grid-gap: 5px;
 }
 .imgdescription{
     background-color: rgb(206, 199, 199);
