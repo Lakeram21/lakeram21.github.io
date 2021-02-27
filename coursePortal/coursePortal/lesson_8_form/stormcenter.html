@@ -62,7 +62,8 @@
             <form method='get' action='thanks.html'>
                 <fieldset>
                     <legend>User Info</legend>
-                    <label class='top'> First Name*<input type='text' name='fname' required></label>
+                    <label class='top'> First Name*<input type='text' name='fname' pattern="[A-Za-z]{5,}"
+                            required></label>
                     <label class='top'> Last Name*<input type='text' name='lname' required></label>
                     <label class='top'> Phone*<input type='tel' name='phone' placeholder="12345678" required></label>
                     <label class='top'> Email*<input type='email' name='email' placeholder="someone@gmail.com"
