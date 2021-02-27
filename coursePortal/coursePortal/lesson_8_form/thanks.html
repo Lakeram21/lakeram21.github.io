@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <meta name="Preston 2"
+        content="This is a subpage for my Weather app which display one specific town, Preston Idaho. This project is part of my WDD Class at BYUI">
+
+
+</head>
+
+<body>
+    <header>
+        <div id="header">
+            <div class="header_logo">
+                <picture>
+                    <img src="image/weather.png" alt="logo img">
+                </picture>
+                <section>
+                    <h1>Weather Watch</h1>
+                    <p>There is No such Thing as Bad Weather</p>
+                </section>
+
+            </div>
+
+        </div>
+
+
+        <nav>
+            <ul class="navigation">
+                <li><a class="ham_menu" href=# onclick="toggleMenu()"> &#9776;Menu</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a
+                        href="https://lakeram21.github.io/coursePortal/coursePortal/lesson%206%20copy/preston_5.html">Preston</a>
+                </li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a class="current" href="#">Storm Center</a></li>
+                <li><a href="https://lakeram21.github.io/coursePortal/coursePortal/lesson7/gallery-7.html">Gallery</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Sucesss</h1>
+        <p class="thankyou_site">Thank you for Notifying <b>WeatherWatch</b> concerning the Storm in the said area. We
+            will get back to you
+            very promptly.</p>
+
+    </main>
+
+    <footer>
+        <section>
+            <p class="copyright"> © <span id="currentYear"></span> |Lakeram Narine| Guyana <a
+                    href="https://www.byui.edu/online">BYUI Online
+                    Learning</a></p>
+            <p id='datemodified'></p>
+        </section>
+
+    </footer>
+    <script src="stormjs/date.js"></script>
+    <script src="stormjs/stormrating.js"></script>
+</body>
+
+</html>

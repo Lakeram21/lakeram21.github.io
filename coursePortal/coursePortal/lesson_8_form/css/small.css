@@ -1,0 +1,183 @@
+body{
+    font-family: 'Yusei Magic', sans-serif;
+    
+    background-color: #817F75;
+}
+/* chnage on pancake day*/
+#pancake{
+    text-align: center;
+    background-color: tomato;
+    padding: 10px;
+    margin-top: -10px;
+}
+
+nav a:visited {
+  background-color: tomato;
+}
+
+.header_logo{
+    display:grid;
+    text-align: center;
+    
+}
+header img{
+    width: 95px;
+}
+/*navigation*/
+nav{
+    margin: 0 auto;
+    background-color: teal;
+    
+}
+nav ul {
+
+    list-style-type: none;  
+    padding: 0; 
+}
+
+nav ul li a{
+    display: block;
+    font-size:medium;
+    text-decoration: none;
+    font-weight: 300;
+    text-align:center;
+    padding:2px;
+    color: white;
+
+}
+nav ul li a:hover{
+    background-color:teal;
+    color:brown;
+}
+
+
+#datemodified{
+    text-align: center;
+}
+
+
+.navigation li{
+    display: none;
+}
+.navigation li:first-child{
+    display: block;
+    text-align: center;
+}
+
+/*this is for the toggle of the hamberger menu*/
+.responsive li{
+    display:block;
+}
+
+
+/* this is for main/body*/
+
+main{
+    max-width: 940px;
+    margin: 0 auto;
+    display: block;
+    
+    grid-gap: 20px;
+    background-color: #2E294E;
+    padding: 10px;
+   
+
+    
+}
+
+.navigation .current{
+    background-color:rgb(8, 182, 182);
+}
+
+
+footer{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+
+}
+header, footer{
+    background-color: #96E6B3;
+
+}
+ 
+header h1{
+    color: brown;
+    font-style: italic;
+font-size: 2rem;
+}
+header{
+    color:white;
+}
+
+body h1{
+    color: brown;
+}
+/*-----------Form---------------------------*/
+
+form fieldset{
+    margin: 2rem 0;
+    border: 1px solid rgba(114, 8, 23, 0.733);
+    border-radius: 10px ;
+    padding: .5rem 2%;
+    background-color: rgb(32, 124, 124);
+}
+form legend{
+    color: White;
+    margin: 0.1rem;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+}
+ form label.top, form div{
+     display: block;
+     padding-top: 1rem;
+     color:black;
+     font-size: .8rem;
+ }
+
+ form label.top input, form label.top select{
+     -webkit-appearance: none;
+     display: block;
+     font-size: 1rem;
+     border: solid 1px #999;
+     border-radius: 4px;
+    padding: .75 rem;
+    color: rgb(3, 48, 48);
+    width: 100%;
+    max-width: 20rem;
+    background-color:rgb(0,0,0,0.1);
+ }
+
+ form label.sbs{
+    display: block;
+     padding: .75 rem 0;
+     color: #555;
+ }
+ form input.submitBtn{
+     border: none;
+     background-color: red;
+     color:white;
+     border-radius: 1rem;
+     padding:.75rem 1.5rem;
+     margin: 0 0 2rem 2%;
+     width: 96%;
+     max-width: 20rem;
+ }
+
+ form label.top input:required{
+     border-left: red solid 6px;
+ }
+
+ form label.top input:required:valid{
+     border-left: green solid 6px;
+
+ }
+.comment{
+    width: 50%;
+   
+}
+
+.thankyou_site{
+    color:white;
+}
