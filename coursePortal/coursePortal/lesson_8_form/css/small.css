@@ -136,6 +136,8 @@ form legend{
      font-size: .8rem;
  }
 
+ 
+
  form label.top input, form label.top select{
      -webkit-appearance: none;
      display: block;
@@ -151,9 +153,13 @@ form legend{
 
  form label.sbs{
     display: block;
-     padding: .75 rem 0;
-     color: #555;
+     padding: 1.75 rem 0;
+     color:brown;
  }
+ form label.sbs{
+     padding:5px;
+ }
+
  form input.submitBtn{
      border: none;
      background-color: red;
@@ -181,3 +187,5 @@ form legend{
 .thankyou_site{
     color:white;
 }
+
+ 
