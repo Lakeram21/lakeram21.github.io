@@ -1,0 +1,206 @@
+body{
+    font-family: 'Yusei Magic', sans-serif;
+    
+    background-color: #817F75;
+}
+/* chnage on pancake day*/
+#pancake{
+    text-align: center;
+    background-color: rgb(23, 53, 36);
+    padding: 10px;
+    margin-top: -10px;
+}
+
+nav a:visited {
+  background-color: tomato;
+}
+
+.header_logo{
+    display:grid;
+    text-align: center;
+    
+}
+header img{
+    width: 95px;
+}
+/*navigation*/
+nav{
+    margin: 0 auto;
+    background-color: teal;
+    
+}
+nav ul {
+
+    list-style-type: none;  
+    padding: 0; 
+}
+
+nav ul li a{
+    display: block;
+    font-size:medium;
+    text-decoration: none;
+    font-weight: 300;
+    text-align:center;
+    padding:2px;
+    color: white;
+
+}
+nav ul li a:hover{
+    background-color:teal;
+    color:brown;
+}
+
+
+#datemodified{
+    text-align: center;
+}
+
+
+.navigation li{
+    display: none;
+}
+.navigation li:first-child{
+    display: block;
+    text-align: center;
+}
+
+/*this is for the toggle of the hamberger menu*/
+.responsive li{
+    display:block;
+}
+
+.navigation .current{
+    background-color:rgb(8, 182, 182);
+}
+
+/* this is for main/body*/
+
+main{
+    max-width: 940px;
+    margin: 0 auto;
+    display: block;
+    
+    grid-gap: 20px;
+    background-color: #2E294E;
+    padding: 10px;   
+}
+main h1{
+    color:brown;
+    text-align: center;
+}
+
+
+/***********contact Information***************/
+
+.contactInfo{
+ display: block;
+ 
+
+ color: brown;
+}
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-whatsapp {
+  background: green;
+  color: white;
+}
+.fa-google {
+  background: red;
+  color: white;
+}
+.fa-twitter {
+  background:#3B5998;
+  color: white;
+}
+
+
+.socialImage{
+    display: flex;
+    
+}
+
+footer{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+
+}
+header, footer{
+    background-color: #96E6B3;
+
+}
+ 
+header h1{
+    color: brown;
+    font-style: italic;
+font-size: 2rem;
+}
+header{
+    color:white;
+}
+
+
+.contactdiv img{
+    width: 100%;
+}
+
+/****banner****/
+.banner_image img{
+    width: 100%;
+}
+/******cards*****/
+.card img{
+    width: 100%;
+}
+
+.card{
+    display: grid;
+    grid-template-columns: 1fr;
+    
+    text-align: center;
+    padding-top: 10px;
+}
+
+.card section{
+grid-gap: 5px;
+background-color: #8dad9a;
+padding: 10px;
+/*opacity: 0.5;*/
+}
+
+.motto{
+    margin-top: -.5rem;
+    margin-bottom: 2.5rem;
+    font-size: .8rem;
+    
+}
+.card section h3{
+    font-size: 2rem;
+    color: brown;
+}
+
+.article img{
+    float: right;
+    width: 100%;
+}
+
+.article{
+line-height: 1.5rem;
+background-color:  #8dad9a;
+padding: 10px;
+margin-top: 1rem;
+margin-bottom: 1rem;
+}

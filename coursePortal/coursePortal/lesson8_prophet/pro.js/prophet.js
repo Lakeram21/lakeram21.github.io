@@ -44,6 +44,8 @@ fetch(requestURL)
             imgDiv.append(proImg)
             card.append(imgDiv)
             cards.append(card)
+
+
         })
 
 

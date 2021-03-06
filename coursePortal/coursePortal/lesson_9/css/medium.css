@@ -1,0 +1,107 @@
+@media only screen and (min-width: 700px) {
+
+
+
+.navigation{
+
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.navigation a{
+
+    padding: 0.75rem;
+    
+
+}
+.navigation li{
+    display: block;
+    
+    flex: 1 1 auto;
+}
+
+img{
+    width: 100%;
+}
+
+.navigation li:first-child{
+    display: none;
+}
+
+
+
+.header_logo{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*the body*/
+
+
+.contactdiv{
+ 
+   grid-template-columns: 1fr 1fr;
+   
+}
+
+
+
+.contactInfo{
+margin-left: 100px;
+
+}
+
+.contactdiv img{
+   width: 100%;
+}
+.contactdiv{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+}
+/*********card*****************/
+.card {
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-gap: 15px;
+    text-align: center;
+    
+}
+.card img{
+width: 70%;
+}
+.card section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    grid-gap: 15px;
+    background-color: #8dad9a;
+}
+
+
+.card section div{
+    padding: 20px;
+    
+}
+.card section:nth-child(odd){
+    flex-direction: row-reverse;
+}
+
+.motto{
+    margin-top: -1.5rem;
+    margin-bottom: 2.5rem;
+    font-size: .8rem;
+    
+}
+
+}
+
+
+
+
+
+
+
+
+
