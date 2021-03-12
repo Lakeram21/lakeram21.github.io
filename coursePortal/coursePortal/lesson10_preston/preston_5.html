@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <meta name="Preston 2"
+        content="This is a subpage for my Weather app which display one specific town, Preston Idaho. This project is part of my WDD Class at BYUI">
+
+
+</head>
+
+<body>
+    <header>
+        <div id="header">
+            <div class="header_logo">
+                <picture>
+                    <img src="image/weather.png" alt="logo img">
+                </picture>
+                <section>
+                    <h1>Weather Watch</h1>
+                    <p>There is No such Thing as Bad Weather</p>
+                </section>
+
+            </div>
+
+        </div>
+
+
+        <nav>
+            <ul class="navigation">
+                <li><a class="ham_menu" href=# onclick="toggleMenu()"> &#9776;Menu</a></li>
+                <li><a href="https://lakeram21.github.io/coursePortal/coursePortal/lesson_9/index.html">Home</a></li>
+                <li><a class="current"
+                        href="https://lakeram21.github.io/coursePortal/coursePortal/lesson%206%20copy/preston_5.html">Preston</a>
+                </li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="https://lakeram21.github.io/coursePortal/coursePortal/lesson_8_form/stormcenter.html">Storm
+                        Center</a></li>
+                <li><a href="https://lakeram21.github.io/coursePortal/coursePortal/lesson7/gallery-7.html">Gallery</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <h1 class="townh1">The Town of Preston</h1>
+
+        <div class="herodiv">
+            <picture>
+                <source srcset="image/mediumhero.jpg" media="(min-width: 500px) and (max-width:800px)">
+                <source srcset="image/largehero.jpg" media="( min-width:800px)">
+                <img src="image/smallhero.jpg" alt="hero">
+            </picture>
+
+
+
+            <section class="summary">
+                <h2>Weather Summary</h2>
+                <p>Currently: <span id="current">Sunny</span>&#8457;</p>
+                <p>High: <span id="hightemp">50 </span>&#8457;</p>
+                <p>Wind Chill: <span id="windchill"></span>&#8457;</p>
+                <p>Humidity: <span id="Humid">69 </span>%</p>
+                <p>Wind Speed: <span id="windspeed">3 </span>mph</p>
+            </section>
+        </div>
+
+        <div class="forcast">
+            <h2> 5 Day Forcast</h2>
+            <div class="forecastTable">
+                <table>
+                    <tr class="foredays">
+
+
+                    </tr>
+                    <tr class="foreicon">
+
+
+                    </tr>
+                    <tr class="foretemp">
+
+                    </tr>
+
+
+                </table>
+            </div>
+
+            <!--
+ <div class="forcastdiv">
+                <div class="day1">
+                    <h1>Tue</h1>
+                    <img src="" alt="day1">
+                    <p>&#8457</p>
+                </div>
+
+                <div class="day2">
+                    <h1>Wed</h1>
+                    <i class="fas fa-sun"></i>
+                    <img src="" alt="day1">
+                    <p>&#8457</p>
+                </div>
+
+                <div class="day3">
+                    <h1>Thurs</h1>
+                    <img src="" alt="day1">
+                    <p>&#8457</p>
+                </div>
+
+                <div class="day4">
+                    <h1>Fri</h1>
+                    <img src="" alt="day1">
+                    <p>&#8457</p>
+                </div>
+
+                <div class="day5">
+                    <h1>Sat</h1>
+                    <img src="" alt="day1">
+                    <p>&#8457</p>
+                </div>
+            </div>
+
+-->
+
+
+
+        </div>
+
+        <div class="articlediv">
+            <picture class="artimg">
+                <img class="articleImg" src="image/pexels-kevin-bidwell-5523688(3).jpg" alt="article">
+            </picture>
+
+            <div>
+                <h1>Daily Preston News</h1>
+                <p>Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s, when an unknown
+                    printer took a galley of type and scrambled it to make a
+                    type specimen book. It has survived not only five centuries,
+                    but also the leap into electronic typesetting,
+                    remaining essentially unchanged.Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s, when an unknown
+                    printer took a galley of type and scrambled it to make a
+                    type specimen book. It has survived not only five centuries,
+                    but also the leap into electronic typesetting,
+                    remaining essentially unchanged.Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s, when an unknown
+                    printer took a galley of type and scrambled it to make a
+                    type specimen book. It has survived not only five centuries,
+                    but also the leap into electronic typesetting,
+                    remaining essentially unchanged.Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s, when an unknown
+                    printer took a galley of type and scrambled it to make a
+                    type specimen book. It has survived not only five centuries,
+                    but also the leap into electronic typesetting,
+                    remaining essentially unchanged.</p>
+
+
+            </div>
+
+
+
+        </div>
+
+        <div class="contactdiv">
+            <div>
+                <img src="image/preston(1).jpg" alt="map">
+            </div>
+
+            <div class="contactInfo">
+                <h2>Weather Watch</h2>
+                <p>450 E Main St, Rexburg, ID 83440</p>
+                <h3>(208)-666 666</h3>
+                <h3>www.prestonweather.com</h3>
+
+                <div class="socialImage">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-whatsapp"></a>
+                    <a href="#" class="fa fa-google"></a>
+
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+    </main>
+
+    <footer>
+        <section>
+            <p class="copyright"> © <span id="currentYear"></span> |Lakeram Narine| Guyana <a
+                    href="https://www.byui.edu/online">BYUI Online
+                    Learning</a> Data retrived from OpenWeatherMap API</p>
+            <p id='datemodified'></p>
+        </section>
+
+    </footer>
+    <script src="js/preston2.js"></script>
+    <script src="js/fiveday.js"></script>
+    <!-- <script src='js/prestonapi.js'></script> -->
+</body>
+
+</html>
