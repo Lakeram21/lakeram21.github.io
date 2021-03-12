@@ -24,7 +24,7 @@ fetch(baseUrl)
         let main = jsonObject["list"]
         let daysOfWeek = ["Sun", "Mon", "Tue", "Wed", "Thur", "Fri", "Sat"]
 
-        //getting the table class names for the selector for evet
+        //getting the table class names for the selector for eve
         const day_list = document.querySelector(".foredays")
         const temp_list = document.querySelector(".foretemp")
         const temp_icon = document.querySelector(".foreicon")
