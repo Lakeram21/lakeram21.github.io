@@ -11,7 +11,7 @@
 //         console.log(jsonObject)
 
 
-//     })
+// 
 
 let key = 'a04a937677202ae37502ad9609a62fc3'
 const baseUrl = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=a04a937677202ae37502ad9609a62fc3'
