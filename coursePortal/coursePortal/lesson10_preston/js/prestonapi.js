@@ -23,6 +23,7 @@ fetch(baseUrl)
         //max temperature
         let maxtemp = parseFloat(1.8 * (max_temp - 273) + 32)
         maxtemp = maxtemp.toFixed(2)
+        console.log(max_temp)
         document.getElementById("hightemp").textContent = maxtemp
 
 
