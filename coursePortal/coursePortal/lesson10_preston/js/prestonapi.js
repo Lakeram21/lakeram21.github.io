@@ -1,6 +1,6 @@
 const city_id = 5604473;
 const api_key = "a04a937677202ae37502ad9609a62fc3"
-const baseUrl = `https://api.openweathermap.org/data/2.5/weather?id=${city_id}&appid=${api_key}`
+const baseUrl = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=a04a937677202ae37502ad9609a62fc3'
 
 //the fetch method
 fetch(baseUrl)
