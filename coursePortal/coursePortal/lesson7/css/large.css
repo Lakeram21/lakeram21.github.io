@@ -1,6 +1,10 @@
 @media only screen and (min-width: 60em) {
 
 
-
+.gallery_image{
+   
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
 
 }
