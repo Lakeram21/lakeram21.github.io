@@ -94,7 +94,7 @@ main{
 
 .summary{
     text-align: center;
-    background-color: #96E6B3;
+    background-color: teal;
     padding: 10px;
     font-size: medium;
     
@@ -196,6 +196,10 @@ header, footer{
     background-color: rgb(11, 58, 58);
 
 }
+.coming_event{
+    text-align: center;
+    color: #96E6B3;
+}
  
 header h1{
     color: brown;
@@ -217,29 +221,15 @@ main h1{
 .herodiv img{
     width:100%;
 }
-
-/* gallery stuff*/
-.gallery_image img{
-    width:100%;
+.foreicon img{
+ width: 100%;
 }
-
-.gallery_image{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 5px;
+.foredays, .foretemp{
+    padding: 0px;
+    text-align: center;
+    font-size: small;
+    
 }
-.imgdescription{
-    background-color: rgb(206, 199, 199);
-    margin: 0px;
-    padding: 5px;
+th{
+background-color: teal;
 }
-
-figure img[data-src] {
-  filter: blur(0.5em);
-}
-
-figure img {
-  filter: blur(0em);
-  transition: filter 0.5s;
-}
-

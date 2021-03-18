@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <meta name="Preston 2"
+        content="This is a subpage for my Weather app which display one specific town, Preston Idaho. This project is part of my WDD Class at BYUI">
+
+
+</head>
+
+<body>
+    <header>
+        <div id="header">
+            <div class="header_logo">
+                <picture>
+                    <img src="image/weather.png" alt="logo img">
+                </picture>
+                <section>
+                    <h1>Weather Watch</h1>
+                    <p>There is No such Thing as Bad Weather</p>
+                </section>
+
+            </div>
+
+        </div>
+
+
+        <nav>
+            <ul class="navigation">
+                <li><a class="ham_menu" href=# onclick="toggleMenu()"> &#9776;Menu</a></li>
+                <li><a href="https://lakeram21.github.io/coursePortal/coursePortal/lesson_9/index.html">Home</a></li>
+                <li><a
+                        href="https://lakeram21.github.io/coursePortal/coursePortal/lesson%206%20copy/preston_5.html">Preston</a>
+                </li>
+                <li><a class="current" href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="https://lakeram21.github.io/coursePortal/coursePortal/lesson_8_form/stormcenter.html">Storm
+                        Center</a></li>
+                <li><a href="https://lakeram21.github.io/coursePortal/coursePortal/lesson7/gallery-7.html">Gallery</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <h1 class="townh1">Soda Springs</h1>
+
+        <div class="herodiv">
+            <picture>
+                <source srcset="image/sodaspring_med.jpg" media="(min-width: 500px) and (max-width:800px)">
+                <source srcset="image/sodaspring.jpg" media="( min-width:800px)">
+                <img src="image/sodaspring_small.jpg" alt="hero">
+            </picture>
+
+
+
+            <section class="summary">
+                <h2>Weather Summary</h2>
+                <p>Currently: <span id="current">Sunny</span>&#8457;</p>
+                <p>High: <span id="hightemp">50 </span>&#8457;</p>
+                <p>Wind Chill: <span id="windchill"></span>&#8457;</p>
+                <p>Humidity: <span id="Humid">69 </span>%</p>
+                <p>Wind Speed: <span id="windspeed">3 </span>mph</p>
+            </section>
+        </div>
+
+        <div class="forcast">
+            <h2> 5 Day Forcast</h2>
+            <div class="forecastTable">
+                <table>
+                    <tr class="foredays">
+
+
+                    </tr>
+                    <tr class="foreicon">
+
+
+                    </tr>
+                    <tr class="foretemp">
+
+                    </tr>
+
+
+                </table>
+            </div>
+
+        </div>
+
+        <div class="articlediv">
+            <picture class="artimg">
+                <img class="articleImg" src="image/sodaspringart.jpg" alt="article">
+            </picture>
+
+            <div>
+                <h1>Soda Spring Geyser</h1>
+                <p>Soda Springs is famous for its Geyser as well as the several mineral springs, Octagon Springs, Hooper
+                    Springs and
+                    Lover's Delight. In 1937, local businessmen set out to find hot water for a commercial bathhouse and
+                    health resort. On
+                    Nov. 28 of that year, the drill struck a carbon dioxide gas chamber 315 feet underground. Hot water
+                    soon began shooting
+                    out of the ground to more than 45 feet in the air. Once the 3,500-pound drill bit was removed, the
+                    water shot even
+                    higher to more than 70 feet. The Soda Springs Geyser was born. After a few weeks, the city received
+                    a telegram from the
+                    Secretary of the Interior asking them to turn the geyser off because “… it is throwing the
+                    world-famous ‘Old Faithful
+                    Geyser’ off schedule.”
+
+                    The City of Soda Springs has the geyser set on a timer to go off every hour on the hour. You can see
+                    the Geyser today
+                    blow 70 feet into the air and hear it roar "Like a mad dragon," as described by one of the
+                    developers in 1937. The
+                    Geyser is open to the public year round, no fees.
+                    If you are visiting and find that it is not go off at the scheduled time, please call City Hall at
+                    208-547-2600.</p>
+
+
+            </div>
+            <hr>
+            <section class='coming_event'>
+                <h2>Up coming Events</h2>
+
+
+                <div class="events">
+
+
+                </div>
+            </section>
+            <hr>
+
+        </div>
+
+        <div class="contactdiv">
+            <div>
+                <img src="image\sodaspringmap.jpg" alt="map">
+            </div>
+
+            <div class="contactInfo">
+                <h2>Weather Watch</h2>
+                <p>450 E Main St, Rexburg, ID 83440</p>
+                <h3>(208)-666 666</h3>
+                <h3>www.prestonweather.com</h3>
+
+                <div class="socialImage">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-whatsapp"></a>
+                    <a href="#" class="fa fa-google"></a>
+
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+    </main>
+
+    <footer>
+        <section>
+            <p class="copyright"> © <span id="currentYear"></span> |Lakeram Narine| Guyana <a
+                    href="https://www.byui.edu/online">BYUI Online
+                    Learning</a> Data retrived from OpenWeatherMap API</p>
+            <p id='datemodified'></p>
+        </section>
+
+    </footer>
+    <script src="js/preston2.js"></script>
+    <script src="js/fiveday.js"></script>
+    <script src='js/prestonapi.js'></script>
+    <script src='js/events.js'></script>
+</body>
+
+</html>
