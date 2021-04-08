@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chamber of Commerce</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+    <meta name="City"
+        content="This is my city page for a website of a Chambe of commerce. This project is part of my WDD Class at BYUI">
+
+
+</head>
+
+<body>
+
+    <header>
+        <picture><img src="image/BErbiceChambers.png" alt="picture"></picture>
+
+        <nav>
+            <ul class="navigation">
+                <li><a class="ham_menu" href=# onclick="toggleMenu()"> &#9776;Menu</a></li>
+                <li><a href="/home/index.html">Home</a></li>
+                <li><a href="directory/directory.html">Directory</a></li>
+                <li><a class="current" href="city.html">City</a></li>
+
+
+                <li><a href="\join\form.html">Join</a></li>
+
+                <li><a href="News\news.html">News</a></li>
+                <li><a href="contact\contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="banner">
+            <picture>
+                <source srcset="image/berbice2_medium.jpg" media="(min-width: 500px) and (max-width:800px)">
+                <source srcset="image/berbice2.jpg" media="( min-width:800px)">
+                <img src="image/berbice2_small.jpg" alt="hero">
+            </picture>
+
+        </div>
+        <hr>
+        <section class='history'>
+            <h3>History of the County, Berbice</h3>
+            <p>Berbice is a region along the Berbice River in Guyana, which was between 1627 and 1815 a colony of the
+                Dutch Republic.
+                After having been ceded to the Kingdom of Great Britain in the latter year, it was merged with Essequibo
+                and Demerara to
+                form the colony of British Guiana in 1831. In 1966, British Guiana gained independence as Guyana.
+            </p>
+            <p>Berbice was settled in 1627 by the businessman Abraham van Peere from Vlissingen, under the suzerainty of
+                the Dutch West
+                India Company. Until 1714, the colony remained the personal possession of Van Peere and his descendants.
+                Little is known
+                about the early years of the colony, other than that it succeeded in repelling an English attack in 1665
+                in the Second
+                Anglo-Dutch War....<a
+                    href="https://en.wikipedia.org/wiki/Berbice#:~:text=Berbice%20is%20a%20region%20along,of%20British%20Guiana%20in%201831.">Read
+                    more</a></p>
+        </section>
+        <hr>
+        <section class='info_berbices'>
+            <h3>Info</h3>
+            <p>Population: 142,839</p>
+            <p>Size in Area: 36,234 km2 (13,990 sq mi)</p>
+            <p>Major Businesses: Rice Industry, Farming (cash crops), Sugar Industry, Retail, Fishing </p>
+            <p>Exports: Rice, Sugar, Fish</p>
+        </section>
+        <hr>
+        <h3>Sites in Berbice</h3>
+
+        <div class='sites'>
+
+            <div>
+                <img src="image/sportscomplex.jpg" alt="sports complex">
+                <p>Albion Sports complex: One of the home ground of the Guyana cricket team</p>
+            </div>
+
+            <div>
+                <img src="image/market1.jpg" alt="market">
+                <p>Port Mourant Market</p>
+            </div>
+
+            <div>
+                <img src="image/fortnassu.jpg" alt="fort">
+                <p>Fort Nassau :The capital of the Dutch colony of Berbice</p>
+            </div>
+
+            <div>
+                <img src="image/monument1.jpg" alt="monument">
+                <p>Indian Arrival monument</p>
+            </div>
+
+        </div>
+
+        <section class='events'></section>
+
+
+    </main>
+
+    <footer>
+        <section>
+            <p class="copyright"> © <span id="currentYear"></span> |Berbice Chamber of Commerce|Lakeram Narine| Guyana<a
+                    href="https://www.byui.edu/online">BYUI Online
+                    Learning</a> Data retrived from OpenWeatherMap API
+            </p>
+            <p id='datemodified'></p>
+        </section>
+
+    </footer>
+    <script src="js/date.js"></script>
+</body>
+
+</html>

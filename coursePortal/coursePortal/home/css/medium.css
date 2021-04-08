@@ -1,0 +1,98 @@
+
+@media only screen and (min-width: 700px) {
+.navigation{
+
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.navigation a{
+
+    padding: 0.75rem;
+    
+
+}
+.navigation li{
+    display: block;
+    
+    flex: 1 1 auto;
+}
+
+img{
+    width: 100%;
+}
+.navigation li:first-child{
+    display: none;
+}
+
+
+/**********************Weather info*********/
+.banner{
+    position: relative;
+
+}
+
+.weather{
+    position: absolute;
+    top:17rem;
+    left: 11rem;
+    opacity: .7;
+    padding: 10px;
+    box-shadow:5px 5px 5px#692828;
+    background-color: brown;
+    
+}
+.current_weather{
+    left: 10px;
+}
+.forecast{
+    display: block;
+    justify-content: space-between;
+}
+
+
+/***************Mission details***********/
+.chamber_goal{
+    position: absolute;
+    top:17rem;
+    
+    max-width: 250px;
+    right: 3rem;
+    opacity: .7;
+    padding: 8px;
+    box-shadow:5px 5px 5px#692828;
+    background-color: brown;
+    
+}
+.chamber_goal ul {
+    line-height: 1rem;
+}
+.chamber_goal .join_us{
+    padding: .4rem;
+    background-color:black;
+}
+
+.weather, .chamber_goal{
+    text-align: left;
+
+}
+/*************article images**********************/
+.articles picture img{
+    width: 200px;
+    float: left;
+    margin-right:  .5rem;
+    margin-top: .3rem;
+}
+.up_events{
+    text-align: center;
+    color: chartreuse;
+}
+/*********Social Image*********/
+.socialImage{
+    display: flex;
+    justify-content:left;
+    padding: 10px;
+}
+/***************end**************/
+}

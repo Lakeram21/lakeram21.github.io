@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chamber of Commerce</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+    <meta name="Join"
+        content="This is my Sign up page for a website of a Chambe of commerce. This project is part of my WDD Class at BYUI">
+
+
+</head>
+
+<body>
+
+    <header>
+        <picture><img src="image/BErbiceChambers.png" alt="picture"></picture>
+
+        <nav>
+            <ul class="navigation">
+                <li><a class="ham_menu" href=# onclick="toggleMenu()"> &#9776;Menu</a></li>
+                <li><a href="\home\index.html">Home</a></li>
+                <li><a href="\directory/directory.html">Directory</a></li>
+                <li><a href="\city\city.html">City</a></li>
+
+
+                <li><a class="current" href="#">Join</a></li>
+
+                <li><a href="\News\news.html">News</a></li>
+                <li><a href="contact\contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Berbice Chamber Membership Form</h1>
+        <form method='get' action='thanks.html'>
+            <fieldset>
+                <legend>User Info</legend>
+                <label class='top'> First Name*<input type='text' name='fname' pattern="[A-Za-z]{5,}" required></label>
+                <label class='top'> Last Name*<input type='text' name='lname' required></label>
+                <label class='top'> Title<input type='text' name='title' placeholder="Mr/Mrs/Miss"></label>
+                <label class='top'> Phone<input type='tel' name='phone' placeholder="12345678"></label>
+                <label class='top'> Email*<input type='email' name='email' placeholder="someOne@gmail.com"
+                        required></label>
+
+            </fieldset>
+
+            <fieldset>
+
+                <legend>Your Business Info</legend>
+                <label class='top'>Business Name*<input type='text' name='Bname' pattern="[A-Za-z]{5,}"
+                        required></label>
+                <label class='top'>Business Address<input type='text' name='Baddress'></label>
+                <label class='top'> Business website<input type='text' name='Bwebsite' placeholder="https://...."
+                        required></label>
+                <label class='top'>Business Description</label>
+                <label class="top"></label><textarea name="comment" class='comment' rows="10"></textarea>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Membership Type</legend>
+                <div>Please Select One</div>
+                <label class='sbs'><input type='radio' name="options" value='100'>Non-profit ($100)</label>
+                <label class='sbs'><input type='radio' name="options" value="200">Bronze ($200)</label>
+                <label class='sbs'><input type='radio' name="options" value="400">Silver ($400)</label>
+                <label class='sbs'><input type='radio' name="options" value="1000">Gold ($1000)</label>
+
+
+                <p>To learn more about options...<a href="#">Click Here</a></p>
+            </fieldset>
+
+            <input type='submit' value="SUBMIT Form" class='submitBtn'>
+
+        </form>
+
+
+
+    </main>
+
+    <footer>
+        <section>
+            <p class="copyright"> © <span id="currentYear"></span> |Berbice Chamber of Commerce|Lakeram Narine| Guyana<a
+                    href="https://www.byui.edu/online">BYUI Online
+                    Learning</a> Data retrived from OpenWeatherMap API
+            </p>
+            <p id='datemodified'></p>
+        </section>
+
+    </footer>
+    <script src="js/date.js"></script>
+</body>
+
+</html>

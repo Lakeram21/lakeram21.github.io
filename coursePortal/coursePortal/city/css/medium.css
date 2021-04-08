@@ -1,0 +1,42 @@
+
+@media only screen and (min-width: 700px) {
+.navigation{
+
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.navigation a{
+
+    padding: 0.75rem;
+    
+
+}
+.navigation li{
+    display: block;
+    
+    flex: 1 1 auto;
+}
+
+img{
+    width: 100%;
+}
+.navigation li:first-child{
+    display: none;
+}
+
+
+
+/**********************sites*******/
+.sites {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+
+
+}
+.sites img{
+    width: 100%;
+}
+/***************end**************/
+}

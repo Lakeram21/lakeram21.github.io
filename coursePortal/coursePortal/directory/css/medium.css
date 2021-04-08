@@ -1,0 +1,63 @@
+
+@media only screen and (min-width: 700px) {
+.navigation{
+
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.navigation a{
+
+    padding: 0.75rem;
+    
+
+}
+.navigation li{
+    display: block;
+    
+    flex: 1 1 auto;
+}
+
+img{
+    width: 100%;
+}
+.navigation li:first-child{
+    display: none;
+}
+
+
+/**********************Weather info*********/
+.banner{
+    position: relative;
+
+}
+
+.weather{
+    position: absolute;
+    top:17rem;
+    left: 11rem;
+    opacity: .7;
+    padding: 10px;
+    box-shadow:5px 5px 5px#692828;
+    background-color: brown;
+    
+}
+.current_weather{
+    left: 10px;
+}
+.forecast{
+    display: block;
+    justify-content: space-between;
+}
+
+
+/**************card************/
+.company_section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    
+}
+/***************end**************/
+}

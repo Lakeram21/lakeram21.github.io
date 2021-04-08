@@ -1,0 +1,153 @@
+body{
+ font-family: 'PT Sans', sans-serif;
+    
+    background-color: black;
+    color: white;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+
+/*******************main***********/
+main{
+    background-color: #2E0E02;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+/*****************Navigation*************/
+nav{
+    margin: 0 auto;
+    background-color:#581908;
+    
+}
+nav ul {
+
+    list-style-type: none;  
+    padding: 0; 
+}
+
+nav ul li a{
+    display: block;
+    font-size:medium;
+    text-decoration: none;
+    font-weight: 300;
+    text-align:center;
+    padding:2px;
+    color: white;
+
+}
+nav ul li a:hover{
+    background-color:brown;
+  
+}
+
+
+#datemodified{
+    text-align: center;
+}
+
+
+.navigation li{
+    display: none;
+}
+.navigation li:first-child{
+    display: block;
+    text-align: center;
+}
+/***********Hamberger menu******************/
+.responsive li{
+    display:block;
+}
+
+/**************Footer**************/
+footer{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    
+
+}
+header, footer{
+    background-color:#581908 ;
+
+
+
+}
+hr{
+    background-color: black;
+    border: none;
+    height:2px;
+}
+/****************Social media**************/
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-whatsapp {
+  background: green;
+  color: white;
+}
+.fa-google {
+  background: red;
+  color: white;
+}
+.fa-twitter {
+  background:#3B5998;
+  color: white;
+}
+/***************CURRENT******/
+.current {
+    background-color:brown;
+} 
+/*****logo*******************/
+.logo img {
+    overflow: visible;
+}
+/*****************Logo********************/
+header picture{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding: 10px;
+}
+header picture img{
+    width: 200px;
+    height: 150px;
+    
+    background-color: black;
+}
+/****************info**********/
+.info_berbices{
+    text-align: center;
+}
+h3{
+    text-align: center;
+    color: brown;
+    font-size: 1.8rem;
+}
+
+/*********sites********/
+.sites {
+    
+    
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    text-align: center;
+    
+
+}
+.banner img{
+    width: 100%;
+}

@@ -1,0 +1,56 @@
+
+@media only screen and (min-width: 700px) {
+.navigation{
+
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.navigation a{
+
+    padding: 0.75rem;
+    
+
+}
+.navigation li{
+    display: block;
+    
+    flex: 1 1 auto;
+}
+
+img{
+    width: 100%;
+}
+.navigation li:first-child{
+    display: none;
+}
+
+
+
+/*************article images**********************/
+.articles picture img{
+    width: 200px;
+    float: left;
+    margin-right:  .5rem;
+    margin-top: .3rem;
+}
+.up_events{
+    text-align: center;
+    color: chartreuse;
+}
+/*********Social Image*********/
+.socialImage{
+    display: flex;
+    justify-content:left;
+    padding: 10px;
+}
+/**************card************/
+.company_section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    
+}
+/***************end**************/
+}

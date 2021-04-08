@@ -1,0 +1,26 @@
+@media only screen and (min-width: 60em) {
+
+.chamber_goal{
+    
+    top:17rem;
+    
+    max-width: 250px;
+    right: 9rem;
+    opacity: .7;
+    padding: 10px;
+   
+    
+}
+.chamber_goal ul {
+    line-height: 1.5rem;
+}
+.chamber_goal .join_us{
+    padding: .4rem;
+   
+}
+
+
+
+
+
+}

@@ -1,0 +1,72 @@
+{
+    "company": [
+        {
+            "name": "Nand Persaud & Co Ltd",
+            "address": "# 36 Village Corentyne-Berbice Guyana",
+            "contact": "592 325 3564",
+            "email": "info@karibeerice.com",
+            "logo": "nand.jpg"
+        },
+        {
+            "name": "Little Rock Television Station and Hotel",
+            "address": "67, Vryman's Erven, New Amsterdam,Berbice",
+            "contact": "592-333-3758",
+            "email": "lrtvs@guyana.net.gy",
+            "logo": "lrtvs.jpg"
+        },
+        {
+            "name": "Big B's - Baksh Restaurant",
+            "address": "11 D'Edward Village, Rosignol Guyana",
+            "contact": "+592 330 1084",
+            "logo": "big_bLogo.jpg"
+        },
+        {
+            "name": "Danzie's Auto Sale",
+            "address": "238 No.2 Village, East, Canje Rd, Berbice, Guyana",
+            "email": "dameingnaughton@yahoo.com",
+            "contact": "592-333-5429",
+            "logo": "car.jpg"
+        },
+        {
+            "name": "Dave's Television Station",
+            "address": "8 Main St. Ann Street, New Amsterdam, Guyana",
+            "email": "davestv8@gmail.com",
+            "contact": "592-333-6339",
+            "logo": "flag.jpg"
+        },
+        {
+            "name": "A Ally and Sons",
+            "address": "15-9 main and Cooper's lane New Amsterdam Berbice Guyana",
+            "contact": "+5926990792",
+            "email": "aallyandsons@yahoo.com",
+            "logo": "aali.jpg"
+        },
+        {
+            "name": "Imran and Sons & Daughters",
+            "address": "Rose hall town, 592 Port Mourant, Guyana",
+            "contact": "+592 337 4502",
+            "logo": "flag.jpg"
+        },
+        {
+            "name": "Metro Office and Computer Supplies",
+            "address": "10 Main Street and Theatre Alley, New Amsterdam, Berbice",
+            "email": "admin@metroguyana.com",
+            "contact": "+592-223-9870-6",
+            "logo": "metro.jpg"
+        },
+        {
+            "name": "Republic Bank",
+            "address": "Lot 16 Strand, New Amsterdam, Berbice.",
+            "contact": "(592) 333-2633, 2639, 2706, 2215",
+            "email": "gyNewAmsterdam.branch@rfhl.com",
+            "logo": "republic.jpg"
+        },
+        {
+            "name": "Albion Sugar EstateGuysuco",
+            "address": "Albion, Corentyne Guyana",
+            "contact": "592 322 0782",
+            "email": "info@guysuco.com",
+            "logo": "guysuco.jpg"
+        }
+    ]
+}
